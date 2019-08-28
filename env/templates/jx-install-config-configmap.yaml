@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQdDlqkCWr0y4Kb9kHWQVNKzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRkZjY2NmYxNy0xODVlLTQxOTgtOThjMy00ZjZhNDQ0M2RmODYw
+    HhcNMTkwODI4MDkxMjE2WhcNMjQwODI2MTAxMjE2WjAvMS0wKwYDVQQDEyRkZjY2
+    NmYxNy0xODVlLTQxOTgtOThjMy00ZjZhNDQ0M2RmODYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDd1N1qx6cIQY0gxrOSTZqANzjBw2k/0QxoI+HKKWCt
+    k+zANR/dv8BGIjG5o7b9mOc0xtaFndTIRkALRduBKnoNAJJ2PXeobvH7pCDL0IvF
+    AwRaEN/vYgtg4vKtOGBRM42hQ46J8Ak+EdaIiRHbPmU2BSdAsq6Yhz3fHZJJt5yO
+    0myIY3Kx12bYsTmkRUot58PqasWy3QncwFNq8P5lRocx2l7F7vCY3i/MegeQRbiJ
+    b9+LdxGTEuDtX0Y/1NiqeirsNWq72aOay7bfD19o5UNuFzQn5Kf4YRQaIK2be38S
+    Xxgd12XRPztAsXix5Pm9gBVAH/Hgl7d/LrAUMvoP8j4rAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCR
+    IbIvuRl/kgNhAMzSW5u4Dx/4R7NLRALZD8D2UHBelp7z/34wUmnOu9odmzsUt602
+    Mm8BVBQdL0A15VGRb8HfkFmS3cu5F6UdlGKb/yRpU7HZC6nLwp7YFQBsHDwsLKZK
+    +DFcohHRXlQ1vJBgKUnWeJQb10+rlLXmG40N1Jdlq6qhxKhm3Ww1AafyeSrt6Q8g
+    H1AsqrbvranjWY7GqaQUeFMM7HUvS5RlLq+CpDoFccwcdUGpn3MTDupTyvBZmMOq
+    Ho2xAf9pkKhHK5LheYKFiCIYm1iKEo06AFvFO4KhmKwOBhc7JT+LhZvyouwyK6xg
+    9kqUdkg8vnjNUle/ieAv
+    -----END CERTIFICATE-----
+  clusterName: thiefmica
+  jx-install-version: 2.0.630
+  kubeProvider: gke
+  projectID: winged-citron-247419
+  region: ""
+  secretsLocation: vault
+  server: https://35.203.126.211
+  systemVaultName: jx-vault-thiefmica
+  zone: northamerica-northeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
